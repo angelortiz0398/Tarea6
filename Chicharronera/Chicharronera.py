@@ -10,7 +10,7 @@ def Abs(num):
 
 def CuadraticE(a,b,c):
     
-    if((b**2 - 4*a*c) >= 0):
+    if((b**2 - 4*a*c) <= 0):
         d = (b**2 - 4*a*c)**(1/2)
         e = 2*a
         x1 = (b + d)/e
