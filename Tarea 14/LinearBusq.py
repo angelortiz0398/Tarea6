@@ -9,8 +9,12 @@ def busca(lis,e):
             return i
     return -1
 
-lista = [random.randint(0,100) for _ in range(10000)]
-print(busca(lista,7))
-print(busca(lista,99))
-print(busca(lista,101))
-print(busca(lista,44))
+def main():
+    lista = [random.randint(0,100) for _ in range(10000)]
+    print(busca(lista,7))
+    print(busca(lista,99))
+    print(busca(lista,101)) 
+    print(busca(lista,44))
+
+if __name__ == '__main__':
+    main()
