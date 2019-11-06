@@ -8,3 +8,5 @@ def multArr(lis):
     return res     
 lis = [1,2,3,4,5]
 print(multArr(lis))
+lis2 = []
+print(multArr(lis2))
